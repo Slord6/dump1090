@@ -813,6 +813,7 @@ int handleHTTPRequest(struct client *c, char *p) {
         "Content-Type: %s\r\n"
         "Connection: %s\r\n"
         "Content-Length: %d\r\n"
+        "Access-Control-Allow-Origin: *\r\n"
         "Cache-Control: no-cache, must-revalidate\r\n"
         "Expires: Sat, 26 Jul 1997 05:00:00 GMT\r\n"
         "\r\n",
